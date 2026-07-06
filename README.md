@@ -3,7 +3,6 @@
 A calculator application built using Java Swing.
 
 ## Features
-
 - Addition
 - Subtraction
 - Multiplication
@@ -14,10 +13,10 @@ A calculator application built using Java Swing.
 - Custom UI colors
 
 ## Technologies Used
-
 - Java
 - Swing
 - AWT
 - IntelliJ IDEA
 
 ## Author
+Rohindan
