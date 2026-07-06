@@ -47,7 +47,7 @@ public class Calculator{
 //        frame.setVisible(true);
         frame.setSize(boardWidth,boardHeight);
         frame.setLocationRelativeTo(null);
-        frame.setResizable(false);
+        frame.setResizable(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
 
@@ -115,6 +115,7 @@ public class Calculator{
                                 else if (operator == "÷"){
                                     displayLabel.setText(removeZeroDecimal(numA/numB));
                                 }
+
                                 clearAll();
                             }
 
@@ -151,6 +152,7 @@ public class Calculator{
                             double num = Double.parseDouble(displayLabel.getText());
                             displayLabel.setText(removeZeroDecimal(Math.sqrt(num)));
                         }
+
                     }
 
                     else {

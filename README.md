@@ -21,5 +21,3 @@ A calculator application built using Java Swing.
 - IntelliJ IDEA
 
 ## Author
-
-Rohindan
